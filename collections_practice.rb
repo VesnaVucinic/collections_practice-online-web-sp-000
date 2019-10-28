@@ -32,7 +32,6 @@ def reverse_array(array)
 end
 
 reverse_array(["blake", "ashley", "scott"]) #["scott", "ashley", "blake"]
-
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
@@ -40,6 +39,7 @@ def kesha_maker(array)
 end
 
 kesha_maker(["blake", "ashley", "scott"]) #["bl$ke", "as$ley", "sc$tt"]
+
 
 def find_a(array)
   array.find_all do |word|
