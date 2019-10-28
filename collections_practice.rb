@@ -30,6 +30,7 @@ def reverse_array(array)
 end
 
 reverse_array(["blake", "ashley", "scott"]) #["scott", "ashley", "blake"]
+
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
@@ -43,11 +44,6 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
-
-  # using select method
-    # array.select do |word|
-    #   word[0] == "a"
-    # end
 end
 
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) #["apple", "avis", "arlo", "ascot"]
