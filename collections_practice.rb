@@ -42,8 +42,6 @@ end
 def sum_array(array)
   array.inject(:+)
 end
-
-def add_s(array)
   
 def add_s(array)
   array.collect do |word|
@@ -57,7 +55,7 @@ end
  
  
  
- 
+=begin
   
 def sort_array_asc(array)
   array.sort
@@ -132,3 +130,5 @@ def add_s(array)
     end
   end
 end
+
+=end
