@@ -56,7 +56,7 @@ def sum_array(array)
   sum
 end 
 
-sum
+
   # using reduce method
     # array.reduce(:+)
 
