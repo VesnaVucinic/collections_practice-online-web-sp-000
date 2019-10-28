@@ -6,5 +6,8 @@ def sort_array_desc (arary)
   array.sort { |a,b| b <=> a}
 end
 
-def 
+def sort_array_char_count(array)
   array.sort_by{ |word| word.length }
+end
+
+def 
