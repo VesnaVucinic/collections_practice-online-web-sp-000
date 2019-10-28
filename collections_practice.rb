@@ -2,5 +2,7 @@ def sort_array_asc(array)
   array.sort
 end
 
-def 
-arr.sort { |a,b| b <=> a}
+def sort_array_desc (arary)
+  array.sort { |a,b| b <=> a}
+end
+
