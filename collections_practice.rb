@@ -92,8 +92,8 @@ def sum_array(array)
   # using reduce method
     # array.reduce(:+)
 
-  # using inject method (short)
-     # array.inject(:+)
+   #using inject method (short)
+     array.inject(:+)
 
   # using inject method (long)
      # array.inject do |sum,x|
