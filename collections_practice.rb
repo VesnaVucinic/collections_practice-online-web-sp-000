@@ -30,6 +30,13 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
 end
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   
 def sort_array_asc(array)
   array.sort
@@ -72,8 +79,8 @@ def sum_array(array)
   sum = 0
   array.each do |num|
     sum+=num
-end
-end 
+  end
+end   
   sum
   # using select method
     # array.select do |word|
