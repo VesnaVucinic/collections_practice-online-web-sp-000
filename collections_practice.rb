@@ -66,7 +66,15 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
+end
 
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+end
+end 
+  sum
   # using select method
     # array.select do |word|
     #   word[0] == "a"
