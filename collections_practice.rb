@@ -34,7 +34,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each {
+  array.each do |item|
+    item[2] = "$"
+  end
+end
 
 
 def sort_array_asc(array)
@@ -63,8 +66,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |item|
-    item[2] = "$"
+  array.each do |letter|
+    letter[2] = "$"
   end
 end
 
