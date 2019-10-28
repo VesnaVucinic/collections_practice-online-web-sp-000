@@ -18,4 +18,8 @@ end
 
 swap_elements_from_to(["a", "b", "c"],2,1)
 
-def 
+def reverse_array(array)
+  array.sort_by {|i| i.reverse}
+end
+
+
