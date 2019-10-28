@@ -25,8 +25,9 @@ def swap_elements_from_to(array, index, destination_index)
     end
 end
 
-swap_elements_from_to(["a", "b", "c"],2,1)
-
+def reverse_array(array)
+  array.reverse
+end
 
 def reverse_array(array)
   array.sort_by {|i| i.reverse}
