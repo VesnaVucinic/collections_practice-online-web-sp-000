@@ -11,4 +11,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-    array.sort_by{ |position[1], position[2]| position[2] <=> position[1] }
+    array.sort do |position[1], position[2]|
+      position[2] <=> position[1] 
+    end
+end
+
