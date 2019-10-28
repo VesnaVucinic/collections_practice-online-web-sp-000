@@ -87,9 +87,5 @@ end
 
 add_s(["hand","feet", "knee", "table"]) #["hands","feet", "knees", "tables"]
 
-def add_s(array)
-  array.each_with_index.collect do |word| word + "s" unles index[2]
-  end
-end
-add_s(["hand","feet", "knee", "table"])
+
 
